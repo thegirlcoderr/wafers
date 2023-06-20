@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #f9e7e2;
+}
+
+/* first section */
+
+.first {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-items: center;
+  margin: 40px;
+}
+
+/* nav bar */
+
+.nav a {
+  text-decoration: none;
+  margin-left: 30px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* first section: search area */
+.whole {
+  background-color: black;
+  width: 320px;
+  height: 50px;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+}
+.search-area {
+  display: flex;
+  gap: 30px;
+}
+.search-area input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.search-area i {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.rook {
+  display: flex;
+}
+.line {
+  border-left: 1px solid white;
+}
+
+/* second section */
+.second {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin: 40px;
+}
+
+/* second section: H1 */
+.flaming {
+  display: flex;
+  align-items: center;
+}
+.flaming h1 {
+  font-size: 80px;
+}
+/* The add to cart and trolley section */
+.carts {
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+  gap: 30px;
+}
+.carts p {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.carts img {
+  padding-top: 5px;
+}
+/* Add to carts and increase area */
+.combodivs {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+}
+.numbers {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.circle-one,
+.circle-two,
+.circle-three {
+  width: 40px;
+  height: 50px;
+  background-color: white;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.numbers p {
+  margin-left: 15px;
+  margin-top: 18px;
+}
+
+/* Chilli and spices area */
+.ingredients img {
+  border-radius: 50px;
+}
+.ingredients p {
+  margin-left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.chilli {
+  display: flex;
+  margin-bottom: 30px;
+}
+.corn {
+  display: flex;
+  margin-bottom: 30px;
+}
+.spices {
+  display: flex;
+}
+
+/* Last section */
+.last {
+  background-color: green;
+  border-radius: 50px 50px 0 0;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.crunchex,
+.tomato,
+.chaat {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 4;
+  margin-top: 20px;
+}
+.crunchex-chilli,
+.tomato-twist,
+.chaat-chaska {
+  background-color: white;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 50px;
+  z-index: 1;
+  text-transform: uppercase;
+  transform: translateX(-20px);
+  z-index: 1;
+  font-weight: bold;
+}
+.images {
+  transform: translate(30px, -20px);
+  z-index: 2;
+}
+.crunchex-chilli i,
+.tomato-twist i,
+.chaat-chaska i {
+  color: gold;
+}
